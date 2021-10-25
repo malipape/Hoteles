@@ -47,6 +47,13 @@ public class SocialApplication extends WebSecurityConfigurerAdapter {
             .logoutSuccessUrl("/").permitAll()
                 )
             .oauth2Login();
+        
+        
+        
+        
+        
+        
+        
         // @formatter:on
         http.cors().and().csrf().disable();
     }
