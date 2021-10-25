@@ -28,4 +28,5 @@ public class RoomRepository {
   
   public Room save(Room room){ return roomCrudRepository.save(room);};
     
+  public void delete(Room room ) {roomCrudRepository.delete(room);};
 }
